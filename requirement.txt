@@ -3,4 +3,4 @@ scikit-learn
 joblib
 pytest
 fastapi
-unicorn(standard)
+uvicorn(standard)
