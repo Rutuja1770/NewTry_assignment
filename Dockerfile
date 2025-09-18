@@ -6,6 +6,7 @@ WORKDIR /app
 # Copy project files
 COPY requirement.txt .
 RUN pip install --no-cache-dir -r requirement.txt
+Run pip install fastapi uvicorn[standard]
 
 COPY . .
 
